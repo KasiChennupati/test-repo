@@ -91,6 +91,6 @@ Deep Learning
 
 
 ## Dual number: 
-The dual number is a form of number that is represented as a+ $$ b 
+The dual number is a form of number that is represented as <img src="https://render.githubusercontent.com/render/math?math=a+ \epsilon b ">
 Where the a is the real number and the b is the dual number 
 The fomat is kind of like a complex number notation but here instead of having the Epsilon 
