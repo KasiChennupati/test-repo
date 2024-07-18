@@ -1,5 +1,0 @@
-{
-    "filename":"ObjectName here"
-    "parent_objects":['list of parent objects']
-    "child_objects":['list of objects that are dependent on this']
-}

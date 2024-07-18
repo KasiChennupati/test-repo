@@ -1,96 +1,37 @@
-# Data Science Notes
+# Application Research Notes
 
- 
-Table of Contents
-1	Mathematical Preliminaries	2
-1.1	Linear Algebra	2
-1.2	Calculus	2
-1.3	Geometry	2
-1.4	Probability	2
-1.5	Statistics	2
-2	Machine Learning Algorithms	2
-2.1	Supervised Machine Learning (SML)	2
-2.2	Semi-Supervised Machine Learning (SSML)	2
-2.3	Un Supervised Machine Learning (USML)	2
-2.4	Deep Learning	2
-2.5	Reinforcement Learning	2
-3	Popular Learning Resources	2
-3.1	Books	2
-3.2	Online Learning	2
-4	Definitions:	2
-4.1	Unsupervised Machine Learning (USML)	2
-4.2	The spectral clustering revolves around the Eigen values of the matrix	2
-4.3	Supervised Machine Learning (SML)	2
-4.4	Spectral Clustering:	2
-4.5	Semi-Supervised Machine Learning (SSML)	2
-4.6	Reinforcement Learning	2
-4.7	Deep Learning	2
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://www.kasichennupati.com/Application-Research-Notes/)
 
- 
-How to Read this Material
+The entire content of the Application research is built with Jupyter book and other python based documentation, rederers and visualisers.
 
-1	Mathematical Preliminaries
-1.1	Linear Algebra
-1.2	Calculus
-1.3	Geometry
-1.4	Probability
-1.5	Statistics
-1.6	Special Numbers
-1.6.1	Dual Numbers
+## Setup Environment
 
+To replicate the development environment or the editing environment can be set up using the Anaconda/Miniconda package manager does'nt matter which one is used as long as you have environment.yml file
 
-2	Machine Learning Algorithms
-2.1	Supervised Machine Learning (SML)
-2.2	Semi-Supervised Machine Learning (SSML)
-2.3	Un Supervised Machine Learning (USML)
-2.4	Deep Learning
-2.5	Reinforcement Learning
+**As of 16-May-2023**
+For this setup we gone with python 3.8.16 since it's the last python version that's reached Security fix maintenance status in python project 3.10 and 3.11 are in bugfix maintenance status.
 
-Spectral Clustering
-Def
+### Note
 
+--> ***The entire base will be shortly migrated to python 3.9.16 once offline code templates are tested.***
 
-3	Popular Learning Resources
-3.1	Books
+Pip version is always chosen to be updated to latest available (23.1.2)
 
-Sl No	Title		
-			
-			
-			
-			
-			
-			
-			
+```bash
+conda env create -f environment.yml
+activate application_research_notes
 
-3.2	Online Learning
+jupyter-book build .
+```
 
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+## Contribute
 
-4	Practical Applications and Explanations
+Do you wnat to contribute?
 
-5	Use Cases and Insight
+The best way is to raise a Github Issue 🙂
 
-6	Definitions:
-Unsupervised Machine Learning (USML)
-The spectral clustering revolves around the Eigen values of the matrix
-Supervised Machine Learning (SML)
-Spectral Clustering:
-Semi-Supervised Machine Learning (SSML)
-Reinforcement Learning
-Deep Learning
+### Editing and adding content
 
+The content is only added to the markdown files in the chapters folder and raise a PR.
+The content will then be built to Jupyter book by owners and merged to **main branch** from **proof-read** branch.
 
-
-## Dual number: 
-The dual number is a form of number that is represented as a+ $$ b 
-Where the a is the real number and the b is the dual number 
-The fomat is kind of like a complex number notation but here instead of having the Epsilon 
