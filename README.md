@@ -15,6 +15,8 @@ For this setup we gone with python 3.8.16 since it's the last python version tha
 
 --> ***The entire base will be shortly migrated to python 3.9.16 once offline code templates are tested.***
 
+--> ***The entire base will be shortly migrated to using uv as the python package manager***
+
 Pip version is always chosen to be updated to latest available (23.1.2)
 
 ```bash
